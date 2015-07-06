@@ -1,6 +1,7 @@
+sldjfsofjsofjs;fjs;fj
 temp.txt
-
-select customer_no, request_no, external_id, status, amount, product_name, pay_product_type, callback_url, web_callback_url, t.*
+iiii
+ielect customer_no, request_no, external_id, status, amount, product_name, pay_product_type, callback_url, web_callback_url, t.*
 from zgt.tbl_trxorder t
 where request_no in ('41bc58c37f1d4f5fa09537a9f922c3a04358', 'fffa6d2422034822bbb27823b5f5d90b5171', 'abf147075d744ddf8dafa65da8b680700058', '46c64160a3a74c849e0b0c602227500d7492', '611fab439a214a5186bc966312ac52c44825')
 with ur;
