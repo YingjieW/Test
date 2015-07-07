@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>账户信息修改查询接口</title>
+	</head>
+	<body>
+	<br> <br>
+	<table width="80%" border="0" align="center" cellpadding="9" cellspacing="0" style="border:solid 1px #107929">
+
+			<tr>
+		  		<th align="center" height="20" colspan="4" bgcolor="#6BBE18">
+					账户信息修改查询接口
+				</th>
+		  	</tr> 
+
+			<form method="post" action="../jsp/sendQueryUpdate.jsp" target="_blank" accept-charset="UTF-8">
+				<tr >
+					<td width="20%" align="right">待查询的修改请求号：&nbsp;&nbsp;</td>
+					<td width="55%" align="left"> 
+						<input size="80" type="text" name="requestid" value="" placeholder="必填！"required/>
+					</td>
+					<td width="5%"  align="center"> - </td> 
+					<td width="15%" align="left">requestid</td> 
+				</tr>
+
+				<tr >
+					<td width="25%" align="left">&nbsp;</td>
+					<td width="55%" align="left"> 
+						<input type="submit" value="submit" />
+					</td>
+					<td width="5%"  align="center">&nbsp;</td> 
+					<td width="15%" align="left">&nbsp;</td> 
+				</tr>
+
+			</form>
+		</table>
+	</body>
+</html>
